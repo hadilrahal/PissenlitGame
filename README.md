@@ -31,14 +31,13 @@ Le projet est séparé en plusieurs fonctions principales :
 - `updateWindowTitle()` : met à jour les informations de la fenêtre
 
 ## Représentation des cases
-
 Chaque case possède un état :
 
 ```cpp
 EMPTY
 SEED
 DANDELION
-
+----------------------------------------------------------------------------------------------------
 J’ai utilisé un enum afin de rendre le code plus clair et plus facile à maintenir.
 Algorithme principal
 Le joueur plante un pissenlit avec la souris.
